@@ -21,3 +21,11 @@ git add xx
 git commit –m “注释”
 //上传文件
 git push git@github.com:cishudian/ros_message.git
+//数据不能上传
+git pull --rebase origin master
+//上传
+git push git@github.com:cishudian/ros_message.git
+
+//参考以下文章
+https://blog.csdn.net/qq_29985391/article/details/85047841
+
